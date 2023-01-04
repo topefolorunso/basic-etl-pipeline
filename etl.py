@@ -12,10 +12,11 @@ def extract(file_path: str) -> DataFrame:
         df (DataFrame): pandas dataframe containing the csv data
     '''
 
-    # exracts the csv data as pandas daaframe
-    df = pd.read_csv(file_path)
 
-    return df
+    # TODO - # exracts the csv data as pandas dataframe
+    df =  
+
+    return  # TODO - # return the dataframe
 
 
 def transform(df: DataFrame) -> DataFrame:
@@ -29,11 +30,10 @@ def transform(df: DataFrame) -> DataFrame:
         df (DataFrame): pandas dataframe containing the clean data
     '''
 
-    # drop null values
-    df.dropna(inplace=True)
+    # TODO - # drop null values
+    
 
-    # remove decimal from year column and convert to string
-    df.Year = df.Year.astype('int').astype("str")
+    # TODO - # remove decimal from year column and convert to string
     
     return df
 
@@ -49,6 +49,6 @@ def load(df: DataFrame, save_path: str):
         None
     '''
 
-    # write dataframe to csv
-    df.to_csv(save_path, index=False)
+    # TODO - # write dataframe to csv
+
     return
