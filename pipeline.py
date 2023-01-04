@@ -8,13 +8,12 @@ save_path = "~/basic-etl-pipeline/data/clean_economic-indicators.csv"
 def run_pipeline(file_path:str, save_path:str):
 
     # TODO - extract
-    df = extract(file_path=file_path)
+    df = 
 
     # TODO - transform
-    df = transform(df=df)
+    df = 
 
     # TODO - load
-    load(df=df, save_path=save_path)
 
     return
 
